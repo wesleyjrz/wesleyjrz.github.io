@@ -1,7 +1,7 @@
 function load() {
     var perfil = document.querySelector('img#w')
     var date = new Date()
-    var hours = date.getHours
+    var hours = date.getHours()
     // Auto Dark Mode System.
     if (hours > 18 && hours > 6) {
         document.body.style.backgroundColor = "#0a0a0a"
