@@ -5,31 +5,58 @@
 
 /* Body Config */
 
-body {
-    background-color: #0a0a0a;
-    color: #ffffff;
-}
-
 div#quote {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
 }
 
-div#quote blockquote cite {
-    text-align: right;
+hr {
+    width: 38%;
+    border-color: gray;
 }
 
-hr {
-    width: 25%;
+article#about-me {
+    background-color: rgb(20, 20, 20);
     border-color: gray;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 34px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+article#about-me h2 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+article#about-me p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 18pt;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+}
+
+p#last-update {
+    font-family: monospace;
+    font-size: 8pt;
+    text-align: end;
+    margin-top: 50px;
 }
 
 /* Header Config */
 
 header {
     text-align: center;
-    margin: 30px;
+    margin: 20px;
 }
 
 figure#perfil h1 {
