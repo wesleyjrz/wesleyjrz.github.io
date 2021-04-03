@@ -4,9 +4,9 @@ function load() {
     var twitter = document.querySelector('img#twitter')
     var facebook = document.querySelector('img#facebook')
     var presentation_box = document.querySelector('article#about-me')
-    var date = new Date()
-    var hours = date.getHours()
-    
+    // var date = new Date()
+    // var hours = date.getHours()
+    var hours = 19
     if (hours > 18 || hours < 6) { // Night Mode.
         document.body.style.backgroundColor = '#0a0a0a'
         document.body.style.color = '#ffffff'
