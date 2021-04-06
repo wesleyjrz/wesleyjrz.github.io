@@ -1,7 +1,14 @@
-/* Others */
+/* Imports and other configs */
 
-@font-face {font-family: pixels; src: url('/fonts/gamepixies.ttf');}
-@font-face {font-family: script; src: url('/fonts/sundiary.ttf');}
+@font-face {
+    font-family: pixels;
+    src: url('/fonts/gamepixies.ttf');
+}
+
+@font-face {
+    font-family: script; 
+    src: url('/fonts/sundiary.ttf');
+}
 
 /* Body Config */
 
