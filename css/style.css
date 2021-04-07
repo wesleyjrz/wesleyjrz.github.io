@@ -1,4 +1,4 @@
-/* Imports and other configs */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cormorant+Garamond&display=swap');
 
 @font-face {
     font-family: pixels;
@@ -10,35 +10,55 @@
     src: url('/fonts/sundiary.ttf');
 }
 
-/* Body Config */
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+header#info-header {
+    text-align: center;
+    margin: 20px;
+}
+
+figure#perfil h1 {
+    font-family: pixels, monospace;
+    font-size: 24pt;
+    letter-spacing: 2px;
+}
+
+img.social-btns {
+    margin: 0px 3px 0px 3px;
+    transition: .6s;
+}
+
+img.social-btns:hover {
+    width: 28px;
+    opacity: .5;
+}
 
 div#quote {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 11pt;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14pt;
     text-align: center;
 }
 
 hr {
-    width: 40%;
-    border-color: gray;
+    margin: auto 20% auto 20%;
+    border-color: rgb(95, 95, 95);
 }
 
 article#about-me {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(20, 20, 20);
-    border-color: gray;
-    border-style: groove;
+    border-color: rgb(95, 95, 95);
+    border-style: solid;
     border-width: 2px;
-    border-radius: 34px;
+    border-radius: 18px;
     margin-top: 60px;
     align-items: center;
-}
-
-article#about-me h2 {
-    text-align: center;
-    font-size: 18pt;
-    font-weight: bolder;
-    margin-top: 20px;
 }
 
 article#about-me p {
@@ -54,17 +74,4 @@ p#last-update {
     font-size: 8pt;
     text-align: end;
     margin-top: 50px;
-}
-
-/* Header Config */
-
-header {
-    text-align: center;
-    margin: 20px;
-}
-
-figure#perfil h1 {
-    font-family: pixels, monospace;
-    font-size: 24pt;
-    letter-spacing: 2px;
 }
