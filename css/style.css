@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kiwi+Maru:wght@300&display=swap');
 
 @font-face {
     font-family: pixels;
@@ -46,7 +46,7 @@ nav#nav-menu h1 {
 
 nav#nav-menu ul {
     position: absolute;
-    font-family: pixels, monospace;
+    font-family: 'pixels', monospace;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 18pt;
@@ -84,7 +84,7 @@ nav#nav-menu a:hover {
 }
 
 figure#perfil h1 {
-    font-family: pixels, monospace;
+    font-family: 'pixels', monospace;
     font-size: 24pt;
     letter-spacing: 2px;
 }
@@ -106,8 +106,8 @@ div#extra-social-media {
 }
 
 div#quote {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 14pt;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 12pt;
     text-align: center;
 }
 
@@ -133,8 +133,8 @@ article#about-me {
 
 article#about-me p {
     text-align: justify;
-    text-indent: 20pt;
-    margin: 0px 40px 30px 40px;
+    text-indent: 10pt;
+    margin: 0px 40px 12px 40px;
 }
 
 p#last-update {
@@ -146,14 +146,50 @@ p#last-update {
     margin-top: 40px;
 }
 
-/* Media Queries: Tablet Landscape */
+/* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary {width:67%;}
-    #secondary {width:30%; margin-left:3%;}  
+    #secondary {width:30%; margin-left:3%;}
+
+    nav#nav-menu {
+        display: block;
+        position: relative;
+        left: -20px;
+        
+    }
+    nav#nav-menu ul {
+        position: relative;
+        font-family: 'pixels', monospace;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 18pt;
+        list-style: none;
+        text-align: left;
+        padding: 8px;
+        transition: .6s;
+    }
 }
 
-/* Media Queries: Tabled Portrait */
+/* Tabled Portrait */
 @media screen and (max-width: 768px) {
     #primary {width:100%;}
     #secondary {width:100%; margin:0; border:none;}
+
+    nav#nav-menu {
+        display: block;
+        position: relative;
+        left: -20px;
+        
+    }
+    nav#nav-menu ul {
+        position: relative;
+        font-family: 'pixels', monospace;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 18pt;
+        list-style: none;
+        text-align: left;
+        padding: 8px;
+        transition: .6s;
+    }
 }
