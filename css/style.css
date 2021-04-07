@@ -152,21 +152,11 @@ p#last-update {
     #secondary {width:30%; margin-left:3%;}
 
     nav#nav-menu {
-        display: block;
         position: relative;
         left: -20px;
-        
     }
     nav#nav-menu ul {
         position: relative;
-        font-family: 'pixels', monospace;
-        font-weight: bold;
-        letter-spacing: 2px;
-        font-size: 18pt;
-        list-style: none;
-        text-align: left;
-        padding: 8px;
-        transition: .6s;
     }
 }
 
@@ -176,20 +166,12 @@ p#last-update {
     #secondary {width:100%; margin:0; border:none;}
 
     nav#nav-menu {
-        display: block;
         position: relative;
         left: -20px;
-        
+        top: -50px;
+        margin-bottom: -50px;
     }
     nav#nav-menu ul {
         position: relative;
-        font-family: 'pixels', monospace;
-        font-weight: bold;
-        letter-spacing: 2px;
-        font-size: 18pt;
-        list-style: none;
-        text-align: left;
-        padding: 8px;
-        transition: .6s;
     }
 }
