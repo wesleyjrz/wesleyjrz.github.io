@@ -17,8 +17,7 @@ function load() {
     } else { // Day Mode.
         document.body.style.backgroundColor = '#ffffff'
         document.body.style.color = '#0a0a0a'
-        presentation_box.style.backgroundColor = '#d6d6d6'
-        presentation_box.style.borderColor = '#0a0a0a'
+        presentation_box.style.color = '#ffffff'
         perfil.src = '/img/perfil_black.png'
         github.src = '/img/github_black.png'
         twitter.src = '/img/twitter_black.png'
