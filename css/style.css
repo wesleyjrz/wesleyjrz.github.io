@@ -145,6 +145,13 @@ article#about-me p {
     margin: 0px 50px 20px 50px;
 }
 
+article#projects p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30pt;
+}
+
 p#last-update {
     opacity: .6;
     font-family: monospace;
