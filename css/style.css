@@ -115,6 +115,10 @@ div#quote {
     text-align: center;
 }
 
+div#quote p {
+    margin-bottom: -20px;
+}
+
 div#quote blockquote cite {
     font-style: normal;
     text-align: end;

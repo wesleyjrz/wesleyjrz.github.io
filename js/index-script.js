@@ -1,24 +1,22 @@
+var getdate = new Date()
+
 function load() {
-    var perfil = document.querySelector('img#W')
-    var github = document.querySelector('img#github')
-    var email = document.querySelector('img#email')
-    var facebook = document.querySelector('img#facebook')
-    var date = new Date()
-    var hours = date.getHours()
+    var hours = getdate.getHours()
 
     if (hours > 18 || hours < 6) { // Night Mode
         document.body.style.backgroundColor = '#0a0a0a'
         document.body.style.color = '#ffffff'
-        perfil.src = '../img/perfil-white.png'
-        github.src = '../img/github-white.png'
-        email.src = '../img/envelope-white.png'
-        facebook.src = '../img/facebook-white.png'
+        document.querySelector('img#W').src = '../img/perfil-white.png'
+        document.querySelector('img#github').src = '../img/github-white.png'
+        document.querySelector('img#email').src = '../img/envelope-white.png'
+        document.querySelector('img#facebook').src = '../img/facebook-white.png'
     } else { // Day Mode
         document.body.style.backgroundColor = '#ffffff'
         document.body.style.color = '#0a0a0a'
-        perfil.src = '../img/perfil-black.png'
-        github.src = '../img/github-black.png'
-        email.src = '../img/envelope-black.png'
-        facebook.src = '../img/facebook-black.png'
+        document.querySelector('img#W').src = '../img/perfil-black.png'
+        document.querySelector('img#github').src = '../img/github-black.png'
+        document.querySelector('img#email').src = '../img/envelope-black.png'
+        document.querySelector('img#facebook').src = '../img/facebook-black.png'
+        document.querySelector('article#about-me').style.color = '#ffffff'
     }
 }
