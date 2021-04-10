@@ -145,8 +145,9 @@ article#about-me p {
     margin: 0px 50px 20px 50px;
 }
 
-article#projects p {
+article#projects {
     font-family: Arial, sans-serif;
+    color: cadetblue;
     text-align: center;
     margin-top: 80px;
     font-size: 30pt;
