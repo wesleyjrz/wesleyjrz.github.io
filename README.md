@@ -1,2 +1,2 @@
 # wesleyjrz.github.io
-A personal website to practice what I learn about web development.
+A personal website to practise what I learn about web development.
