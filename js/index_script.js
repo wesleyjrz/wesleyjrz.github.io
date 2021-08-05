@@ -1,8 +1,7 @@
 var getdate = new Date();
 
 function load() {
-    // let hours = getdate.getHours();
-    let hours = 19
+    let hours = getdate.getHours();
 
     if (hours > 18 || hours < 6) { // Night Mode
         document.body.style.backgroundColor = '#0a0a0a';

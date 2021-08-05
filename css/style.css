@@ -13,7 +13,7 @@
 }
 
 a {
-    color: rgb(60, 140, 140);
+    color: #7fb2b1;
     text-decoration: none;
     transition: .4s;
 }
@@ -158,7 +158,7 @@ article#projects {
 p#last-update {
     opacity: .6;
     font-family: monospace;
-    font-size: 6pt;
+    font-size: 8pt;
     text-align: end;
     letter-spacing: .6px;
     margin-top: 40px;
