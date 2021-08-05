@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: script; 
+    font-family: script;
     src: url('/fonts/sundiary.ttf');
 }
 
@@ -111,7 +111,7 @@ div#extra-social-media {
 
 div#quote {
     font-family: 'Kiwi Maru', serif;
-    font-size: 12pt;
+    font-size: 10pt;
     text-align: center;
 }
 
@@ -146,11 +146,13 @@ article#about-me p {
 }
 
 article#projects {
-    font-family: Arial, sans-serif;
-    color: cadetblue;
+    font-family: 'pixels', monospace;
+    text-decoration: underline;
+    font-style: oblique;
+    color: #518cbe;
     text-align: center;
     margin-top: 80px;
-    font-size: 30pt;
+    font-size: 18pt;
 }
 
 p#last-update {
