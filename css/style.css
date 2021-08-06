@@ -12,6 +12,11 @@
     src: url('/fonts/sundiary.ttf');
 }
 
+.hidden {
+    opacity: 0;
+    position: absolute;
+}
+
 a {
     color: #7fb2b1;
     text-decoration: none;
