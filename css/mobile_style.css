@@ -25,11 +25,11 @@
         font-size: 26pt;
     }
 
-    article#about-me {
+    article.block {
         margin: 60px 3px 0px 3px;
     }
 
-    article#about-me p {
+    article.block p {
         margin: 0px 20px 12px 20px;
     }
 
@@ -69,13 +69,14 @@
         font-size: 26pt;
     }
 
-    article#about-me {
+    article.block {
         margin: 60px 3px 0px 3px;
     }
 
-    article#about-me p {
+    article.block p {
         margin: 0px 20px 12px 20px;
     }
+<<<<<<< HEAD
 
     img#tswitch {
         width: 48px;
@@ -84,4 +85,6 @@
     img#tswitch:hover {
         width: 48px;
     }
+=======
+>>>>>>> master
 }
