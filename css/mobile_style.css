@@ -7,7 +7,7 @@
         position: relative;
         left: -20px;
     }
-    
+
     nav#nav-menu ul {
         position: relative;
     }
@@ -31,6 +31,14 @@
 
     article#about-me p {
         margin: 0px 20px 12px 20px;
+    }
+
+    img#tswitch {
+        width: 48px;
+    }
+
+    img#tswitch:hover {
+        width: 48px;
     }
 }
 
@@ -67,5 +75,13 @@
 
     article#about-me p {
         margin: 0px 20px 12px 20px;
+    }
+
+    img#tswitch {
+        width: 48px;
+    }
+
+    img#tswitch:hover {
+        width: 48px;
     }
 }
