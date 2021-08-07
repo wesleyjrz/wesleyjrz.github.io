@@ -19,6 +19,5 @@ function load() {
         document.querySelector('img#email').src = '../img/mail_black.png';
         document.querySelector('img#facebook').src = '../img/facebook_black.png';
         document.querySelector('img#discord').src = '../img/discord_black.png';
-        document.querySelector('article#about-me').style.color = '#ffffff';
     }
 }
