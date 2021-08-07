@@ -134,7 +134,7 @@ hr {
     border-color: rgb(95, 95, 95);
 }
 
-article#about-me {
+article.block {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(20, 20, 20);
     border-color: rgb(95, 95, 95);
@@ -144,7 +144,7 @@ article#about-me {
     margin: 60px 60px 0px 60px;
 }
 
-article#about-me p {
+article.block p {
     text-align: justify;
     text-indent: 10pt;
     margin: 0px 50px 20px 50px;
