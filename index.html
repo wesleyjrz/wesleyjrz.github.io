@@ -10,10 +10,11 @@
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile_style.css">
-    <script src="js/index_script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
 </head>
 
-<body>
+<body onload="theme()">
     <header id="info-header">
         <nav id="nav-menu">
             <h2 class="hidden">Main Menu</h2>
@@ -24,7 +25,7 @@
             </ul>
         </nav>
         <div id="theme-switch">
-            <img src="img/day_and_night.png" width="32px" class="buttons" id="tswitch" alt="Day/Night Mode" onclick="theme(2)">
+            <img src="img/day_and_night.png" width="32px" class="buttons" id="tswitch" alt="Day/Night Mode" onclick="theme()">
         </div>
         <figure id="perfil">
             <img src="img/perfil_black.png" id="W" alt="W" width="200">

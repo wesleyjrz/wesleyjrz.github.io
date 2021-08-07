@@ -1,6 +1,7 @@
 // Get the date information
 var getdate = new Date();
 
+// This function loads every icon and styles
 function loadTheme(theme) {
     /*
     1 = Load Day Theme
@@ -35,12 +36,14 @@ function loadTheme(theme) {
     }
 }
 
-function theme(mode) {
+// This function selects the theme mode
+function theme() {
     /*
     0 = Auto Day-Night Mode (Default)
     1 = Day Mode
     2 = Night Mode
     */
+    let mode = 0;
 
     if (mode == 0) {
         // Get hours from the user
