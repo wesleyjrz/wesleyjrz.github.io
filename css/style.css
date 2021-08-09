@@ -116,10 +116,21 @@ img#tswitch:hover {
     width: 32px;
 }
 
+#language-selector img.buttons:hover {
+    width: 34px;
+}
+
 div#theme-switch {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    text-align: center;
+    right: 12px;
+    top: 10px;
+    width: 110px;
+}
+
+div#theme-switch p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
 }
 
 div#quote {

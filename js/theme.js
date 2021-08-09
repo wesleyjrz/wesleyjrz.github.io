@@ -8,6 +8,7 @@ function theme(mode) {
 
     // Icons and Images to change
     let profileIcon = document.querySelector('img#W');
+    let themeSwitch = document.getElementbyID('theme-switch');
     let githubIcon = document.querySelector('img#github');
     let mailIcon = document.querySelector('img#email');
     let facebookIcon = document.querySelector('img#facebook');
@@ -21,7 +22,8 @@ function theme(mode) {
         autoTheme(false);
         document.body.style.backgroundColor = '#ffffff';
         document.body.style.color = '#0a0a0a';
-        profileIcon.src = '../img/perfil_black.png';
+        themeSwitch.style.color = '#0a0a0a';
+        profileIcon.src = '../img/profile_black.png';
         githubIcon.src = '../img/github_black.png';
         mailIcon.src = '../img/mail_black.png';
         facebookIcon.src = '../img/facebook_black.png';
@@ -31,7 +33,8 @@ function theme(mode) {
         autoTheme(false);
         document.body.style.backgroundColor = '#0a0a0a';
         document.body.style.color = '#ffffff';
-        profileIcon.src = '../img/perfil_white.png';
+        themeSwitch.style.color = '#ffffff';
+        profileIcon.src = '../img/profile_white.png';
         githubIcon.src = '../img/github_white.png';
         mailIcon.src = '../img/mail_white.png';
         facebookIcon.src = '../img/facebook_white.png';
