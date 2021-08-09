@@ -159,14 +159,13 @@ article.block p {
     margin: 0px 50px 20px 50px;
 }
 
-article#projects {
-    font-family: 'pixels', monospace;
-    text-decoration: underline;
-    font-style: oblique;
-    color: #518cbe;
+#language-selector {
     text-align: center;
-    margin-top: 80px;
-    font-size: 18pt;
+    margin: auto 40% 12px 40%;
+}
+
+#language-selector img {
+    margin: auto 5px;
 }
 
 p#last-update {

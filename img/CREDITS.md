@@ -7,3 +7,5 @@
 - Target Icon by [Freepik](https://www.freepik.com/), [download it here.](https://www.flaticon.com/premium-icon/target_3281297?related_id=3281316&origin=search)
 - Gamepad Icon by [Freepik](https://www.freepik.com/), [download it here.](https://www.flaticon.com/free-icon/gamepad_2991606?term=games&page=1&position=14&page=1&position=14&related_id=2991606&origin=search)
 - Day and Night Icon by [Freepik](https://www.freepik.com/), [download it here.](https://www.flaticon.com/free-icon/day-and-night_1312343?term=day%20night&page=1&position=10&page=1&position=10&related_id=1312343&origin=tag)
+- Brazil Icon by [Freepik](https://www.freepik.com/), [download it here.](https://www.flaticon.com/premium-icon/brazil_186203?term=brazil%20flag&page=1&position=4&page=1&position=4&related_id=186203&origin=tag)
+- UK Icon by [Freepik](https://www.freepik.com/), [download it here.](https://www.flaticon.com/free-icon/united-kingdom_197374?term=uk%20flag&page=1&position=2&page=1&position=2&related_id=197374&origin=search)
