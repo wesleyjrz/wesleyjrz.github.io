@@ -1,0 +1,32 @@
+/* Cursor */
+
+.line {
+    border-right: 3px solid;
+    width: 178px;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 1s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 178px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #ffffff;
+    }
+    to {
+        border-right-color: #0a0a0a;
+    }
+}

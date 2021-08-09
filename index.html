@@ -10,10 +10,12 @@
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile_style.css">
+    <link rel="stylesheet" href="css/typewriter.css">
+    <script src="js/quote.js"></script>
     <script src="js/theme.js"></script>
 </head>
 
-<body onload="theme(0)">
+<body onload="theme(0), quote()">
     <header id="info-header">
         <nav id="nav-menu">
             <h2 class="hidden">Main Menu</h2>
@@ -29,7 +31,7 @@
         <figure id="perfil">
             <img src="img/perfil_black.png" id="W" alt="W" width="200">
             <figcaption>
-                <h1>Wesley Jr._</h1>
+                <h1 class="line anim-typewriter">Wesley Jr.</h1>
             </figcaption>
         </figure>
         <div id="social-media">
@@ -45,12 +47,10 @@
         <hr>
         <div id="quote">
             <blockquote>
-                <p>
-                    “Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.”
-                </p>
+                <p id="quote-txt"></p>
                 <br>
                 <cite>
-                    - Linus Torvalds.
+                <span id="quote-cite"></span>
                 </cite>
             </blockquote>
         </div>
