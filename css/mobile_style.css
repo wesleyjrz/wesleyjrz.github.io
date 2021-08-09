@@ -40,6 +40,10 @@
     img#tswitch:hover {
         width: 48px;
     }
+
+    #language-selector {
+        margin: auto 30% 12px 30%;
+    }
 }
 
 /* Tabled Portrait */
@@ -76,7 +80,6 @@
     article.block p {
         margin: 0px 20px 12px 20px;
     }
-<<<<<<< HEAD
 
     img#tswitch {
         width: 48px;
@@ -85,6 +88,8 @@
     img#tswitch:hover {
         width: 48px;
     }
-=======
->>>>>>> master
+
+    #language-selector {
+        margin: auto 30% 12px 30%;
+    }
 }

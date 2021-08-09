@@ -128,7 +128,7 @@ div#theme-switch {
     width: 110px;
 }
 
-div#theme-switch p {
+.textOutBox {
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
 }
