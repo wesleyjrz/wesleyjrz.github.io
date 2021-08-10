@@ -95,10 +95,10 @@ nav#nav-menu li:hover a {
 
 figure#perfil h1 {
     font-family: 'pixels', monospace;
-    text-align: center;
+    text-align: justify;
     margin: 40px auto 10px auto;
-    font-size: 24pt;
-    letter-spacing: 2px;
+    font-size: 26pt;
+    letter-spacing: 1px;
 }
 
 img.buttons {

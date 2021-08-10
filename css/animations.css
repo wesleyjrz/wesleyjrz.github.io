@@ -8,15 +8,14 @@
 
 .line {
     border-right: 3px solid;
-    width: 178px;
     white-space: nowrap;
     overflow: hidden;transform: translateY(-50%);
 }
 
 /* Typewriter Animation */
 .anim-typewriter {
-    animation: typewriter 1s steps(30) 1s 1 normal both,
-    blinkTextCursor 750ms steps(40) infinite normal;
+    animation: typewriter 1.2s steps(10) 1s 1 normal both,
+    blinkTextCursor 800ms steps(40) infinite normal;
 }
 
 /* Keyframes */
