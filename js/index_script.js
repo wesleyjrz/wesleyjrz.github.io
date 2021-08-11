@@ -11,6 +11,7 @@ function load() {
         document.querySelector('img#email').src = '../img/mail_white.png';
         document.querySelector('img#facebook').src = '../img/facebook_white.png';
         document.querySelector('img#discord').src = '../img/discord_white.png';
+        document.querySelector('img#telegram').src = '../img/telegram_white.png';
     } else { // Day Mode
         document.body.style.backgroundColor = '#ffffff';
         document.body.style.color = '#0a0a0a';
@@ -19,5 +20,6 @@ function load() {
         document.querySelector('img#email').src = '../img/mail_black.png';
         document.querySelector('img#facebook').src = '../img/facebook_black.png';
         document.querySelector('img#discord').src = '../img/discord_black.png';
+        document.querySelector('img#telegram').src = '../img/telegram_black.png';
     }
 }
