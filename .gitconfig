@@ -2,7 +2,7 @@
 	name = Wesley Jr.
 	email = wesleyjr2002@gmail.com
 [core]
-	editor = atom
+	editor = vim
 #[difftool]
 #	editor = code --wait
 [alias]
