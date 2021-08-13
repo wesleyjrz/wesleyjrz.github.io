@@ -5,7 +5,7 @@ function theme(mode) {
   1 = Light Theme
   2 = Dark Theme
   */
-  document.getElementById('tswitch').addEventListener('click', function() {
+  document.getElementById("tswitch").addEventListener("click", function () {
     if (mode == 1) {
       theme(2);
     } else {
@@ -42,42 +42,42 @@ function autoTheme(bool) {
 
 function changeElements(theme) {
   // Icons, Images and colours to change
-  let profileIcon = document.querySelector('img#W');
-  let githubIcon = document.querySelector('img#github');
-  let mailIcon = document.querySelector('img#email');
-  let facebookIcon = document.querySelector('img#facebook');
-  let discordIcon = document.querySelector('img#discord');
-  let textTheme = document.querySelector('p#textTheme');
+  let profileIcon = document.querySelector("img#W");
+  let githubIcon = document.querySelector("img#github");
+  let mailIcon = document.querySelector("img#email");
+  let facebookIcon = document.querySelector("img#facebook");
+  let discordIcon = document.querySelector("img#discord");
+  let textTheme = document.querySelector("p#textTheme");
 
   if (theme == 1) {
     // Black
-    document.body.style.backgroundColor = '#ffffff';
-    document.body.style.color = '#0a0a0a';
-    profileIcon.src = '../img/profile_black.png';
-    githubIcon.src = '../img/github_black.png';
-    mailIcon.src = '../img/mail_black.png';
-    facebookIcon.src = '../img/facebook_black.png';
-    discordIcon.src = '../img/discord_black.png';
+    document.body.style.backgroundColor = "#ffffff";
+    document.body.style.color = "#0a0a0a";
+    profileIcon.src = "../img/profile_black.png";
+    githubIcon.src = "../img/github_black.png";
+    mailIcon.src = "../img/mail_black.png";
+    facebookIcon.src = "../img/facebook_black.png";
+    discordIcon.src = "../img/discord_black.png";
 
-    if (document.documentElement.lang === 'pt-BR') {
-      textTheme.innerText = 'Modo escuro';
+    if (document.documentElement.lang === "pt-BR") {
+      textTheme.innerText = "Modo escuro";
     } else {
-      textTheme.innerText = 'Dark mode';
+      textTheme.innerText = "Dark mode";
     }
   } else if (theme == 2) {
     // White
-    document.body.style.backgroundColor = '#0a0a0a';
-    document.body.style.color = '#ffffff';
-    profileIcon.src = '../img/profile_white.png';
-    githubIcon.src = '../img/github_white.png';
-    mailIcon.src = '../img/mail_white.png';
-    facebookIcon.src = '../img/facebook_white.png';
-    discordIcon.src = '../img/discord_white.png';
+    document.body.style.backgroundColor = "#0a0a0a";
+    document.body.style.color = "#ffffff";
+    profileIcon.src = "../img/profile_white.png";
+    githubIcon.src = "../img/github_white.png";
+    mailIcon.src = "../img/mail_white.png";
+    facebookIcon.src = "../img/facebook_white.png";
+    discordIcon.src = "../img/discord_white.png";
 
-    if (document.documentElement.lang === 'pt-BR') {
-      textTheme.innerText = 'Modo claro';
+    if (document.documentElement.lang === "pt-BR") {
+      textTheme.innerText = "Modo claro";
     } else {
-      textTheme.innerText = 'Light mode';
+      textTheme.innerText = "Light mode";
     }
   }
 }

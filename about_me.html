@@ -1,83 +1,146 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="true" />
     <title>Wesley Júnior - About me</title>
-    <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/mobile_style.css">
-    <link rel="stylesheet" href="style/animations.css">
+    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/mobile_style.css" />
+    <link rel="stylesheet" href="style/animations.css" />
     <script src="script/quote.js"></script>
     <script src="script/theme.js"></script>
-</head>
+  </head>
 
-<body onload="theme(0), quote()">
+  <body onload="theme(0), quote()">
     <header id="info-header">
-        <nav id="nav-menu">
-            <h2 class="hidden">Main Menu</h2>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about_me.html">About me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-        <div id="theme-switch">
-            <p id="textTheme" class="textOutBox"></p>
-            <img src="img/day_and_night.png" width="32px" id="tswitch" class="buttons" alt="Change theme">
-        </div>
-        <figure id="perfil">
-            <img src="img/profile_black.png" id="W" alt="W" width="200">
-            <figcaption>
-                <h1 class="line anim-typewriter">Wesley Jr.</h1>
-            </figcaption>
-        </figure>
-        <div id="social-media">
-            <a target="_blank" href="https://www.github.com/wesleyjrz"><img src="img/github_black.png" class="buttons" id="github"
-                    alt="GitHub"></a>
-            <a target="_blank" href="mailto:wesleyjr2002@gmail.com"><img src="img/mail_black.png" class="buttons" id="email"
-                    alt="Email"></a>
-            <a target="_blank" href="https://www.facebook.com/wesleyjrz"><img src="img/facebook_black.png" class="buttons" id="facebook"
-                    alt="Facebook"></a>
-            <a target="_blank" href="https://discordapp.com/users/860287315866812436"><img src="img/discord_black.png" class="buttons" id="discord"
-                    alt="Discord"></a>
-        </div>
-        <hr>
-        <div id="quote">
-            <blockquote>
-                <p id="quote-txt"></p>
-                <br>
-                <cite>
-                <span id="quote-cite"></span>
-                </cite>
-            </blockquote>
-        </div>
+      <nav id="nav-menu">
+        <h2 class="hidden">Main Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_me.html">About me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <div id="theme-switch">
+        <p id="textTheme" class="textOutBox"></p>
+        <img
+          src="img/day_and_night.png"
+          width="32px"
+          id="tswitch"
+          class="buttons"
+          alt="Change theme"
+        />
+      </div>
+      <figure id="perfil">
+        <img src="img/profile_black.png" id="W" alt="W" width="200" />
+        <figcaption>
+          <h1 class="line anim-typewriter">Wesley Jr.</h1>
+        </figcaption>
+      </figure>
+      <div id="social-media">
+        <a target="_blank" href="https://www.github.com/wesleyjrz"
+          ><img
+            src="img/github_black.png"
+            class="buttons"
+            id="github"
+            alt="GitHub"
+        /></a>
+        <a target="_blank" href="mailto:wesleyjr2002@gmail.com"
+          ><img src="img/mail_black.png" class="buttons" id="email" alt="Email"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/wesleyjrz"
+          ><img
+            src="img/facebook_black.png"
+            class="buttons"
+            id="facebook"
+            alt="Facebook"
+        /></a>
+        <a
+          target="_blank"
+          href="https://discordapp.com/users/860287315866812436"
+          ><img
+            src="img/discord_black.png"
+            class="buttons"
+            id="discord"
+            alt="Discord"
+        /></a>
+      </div>
+      <hr />
+      <div id="quote">
+        <blockquote>
+          <p id="quote-txt"></p>
+          <br />
+          <cite>
+            <span id="quote-cite"></span>
+          </cite>
+        </blockquote>
+      </div>
     </header>
 
     <section id="about-me-content">
       <h2 class="hidden">About Me</h2>
-        <article class="block">
-            <h2><img src="img/pc.png" width="48" alt="Computer"><br>How do I fell in love with computers</h2>
-            <p>
-                My name is Wesley Júnior and I love computers since I was a kid (I spent most of my time installing malwares on my grandpa's computer... He had to install a Linux distribution for me, because I was curious and kept trying to install every game I saw on the internet). Nevertheless, when I got my own computer I was twelve, and didn't get internet yet, then I had to find a way to have fun, so every day when I got home, I turned on my PC with Windows XP installed, and explored everything I could, it was at those moments that I fell in love with computers. A few years later, I had my first contact with Linux distributions, <a target="_blank" href="https://linuxmint.com">Linux Mint</a> was my first distribution and I installed it in dual boot with Windows 10. I tried several debian-based distributions, but I didn't like it that much, though when I tried <a target="_blank" href="https://manjaro.org">Manjaro Linux</a> I just loved and use it so far.
-            </p>
-            <h2><br><img src="img/target.png" width="48" alt="Target"><br>My Goals</h2>
-            <p>
-                I'm currently studying C, Rust and Unix Shell and my main goal is to became a Computer Scientist (You can check my roadmap <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap">here</a>), I want to contribute with open-source projects as well, make games and have fun programming a lot of new apps. I want to enter in a university, maybe a British one, like Oxford or another. Learn new languages is another goal I have, I'm not fluent in English yet (My current level is advanced intermediate), but I'm already studying Japanese, because I love Japan as much as I love England, and I wish to live in one of those countries someday (Btw, I'm from Brazil).
-            </p>
-            <h2><br><img src="img/gamepad.png" width="48" alt="Gamepad"><br>My Hobbies</h2>
-            <p>
-                I like to study, learn new languages, talk with random people sometimes, listen to music (specially rap and heavy metal), drink coffee (with no sugar), write stories and poems, read books, manga and light novel, watch anime, play retro games (SNES, GBA, NDS, etc), play RPG with friends and obviously I love to code.
-            </p>
-        </article>
+      <article class="block">
+        <h2>
+          <img src="img/pc.png" width="48" alt="Computer" /><br />How do I fell
+          in love with computers
+        </h2>
+        <p>
+          My name is Wesley Júnior and I love computers since I was a kid (I
+          spent most of my time installing malwares on my grandpa's computer...
+          He had to install a Linux distribution for me, because I was curious
+          and kept trying to install every game I saw on the internet).
+          Nevertheless, when I got my own computer I was twelve, and didn't get
+          internet yet, then I had to find a way to have fun, so every day when
+          I got home, I turned on my PC with Windows XP installed, and explored
+          everything I could, it was at those moments that I fell in love with
+          computers. A few years later, I had my first contact with Linux
+          distributions,
+          <a target="_blank" href="https://linuxmint.com">Linux Mint</a> was my
+          first distribution and I installed it in dual boot with Windows 10. I
+          tried several debian-based distributions, but I didn't like it that
+          much, though when I tried
+          <a target="_blank" href="https://manjaro.org">Manjaro Linux</a> I just
+          loved and use it so far.
+        </p>
+        <h2>
+          <br /><img src="img/target.png" width="48" alt="Target" /><br />My
+          Goals
+        </h2>
+        <p>
+          I'm currently studying C, Rust and Unix Shell and my main goal is to
+          became a Computer Scientist (You can check my roadmap
+          <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap"
+            >here</a
+          >), I want to contribute with open-source projects as well, make games
+          and have fun programming a lot of new apps. I want to enter in a
+          university, maybe a British one, like Oxford or another. Learn new
+          languages is another goal I have, I'm not fluent in English yet (My
+          current level is advanced intermediate), but I'm already studying
+          Japanese, because I love Japan as much as I love England, and I wish
+          to live in one of those countries someday (Btw, I'm from Brazil).
+        </p>
+        <h2>
+          <br /><img src="img/gamepad.png" width="48" alt="Gamepad" /><br />My
+          Hobbies
+        </h2>
+        <p>
+          I like to study, learn new languages, talk with random people
+          sometimes, listen to music (specially rap and heavy metal), drink
+          coffee (with no sugar), write stories and poems, read books, manga and
+          light novel, watch anime, play retro games (SNES, GBA, NDS, etc), play
+          RPG with friends and obviously I love to code.
+        </p>
+      </article>
     </section>
 
     <footer id="last-info">
-        <p id="last-update">Updated Thu Aug 7 2021.</p>
+      <p id="last-update">Updated Thu Aug 7 2021.</p>
     </footer>
-</body>
-
+  </body>
 </html>

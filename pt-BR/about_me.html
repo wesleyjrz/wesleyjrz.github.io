@@ -1,83 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="true" />
     <title>Wesley Júnior - Sobre mim</title>
-    <link rel="icon" href="../img/icon.png">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/mobile_style.css">
-    <link rel="stylesheet" href="../style/animations.css">
+    <link rel="icon" href="../img/icon.png" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/mobile_style.css" />
+    <link rel="stylesheet" href="../style/animations.css" />
     <script src="../script/quote.js"></script>
     <script src="../script/theme.js"></script>
-</head>
+  </head>
 
-<body onload="theme(0), quote()">
+  <body onload="theme(0), quote()">
     <header id="info-header">
-        <nav id="nav-menu">
-            <h2 class="hidden">Menu Principal</h2>
-            <ul>
-                <li><a href="index.html">Principal</a></li>
-                <li><a href="about_me.html">Sobre mim</a></li>
-                <li><a href="projects.html">Projetos</a></li>
-            </ul>
-        </nav>
-        <div id="theme-switch">
-            <p id="textTheme" class="textOutBox"></p><p id="textTheme" class="textOutBox"></p>
-            <img src="../img/day_and_night.png" width="32px" class="buttons" id="tswitch" alt="Change theme">
-        </div>
-        <figure id="perfil">
-            <img src="../img/profile_black.png" id="W" alt="W" width="200">
-            <figcaption>
-                <h1 class="line anim-typewriter">Wesley Jr.</h1>
-            </figcaption>
-        </figure>
-        <div id="social-media">
-            <a target="_blank" href="https://www.github.com/wesleyjrz"><img src="../img/github_black.png" class="buttons" id="github"
-                    alt="GitHub"></a>
-            <a target="_blank" href="mailto:wesleyjr2002@gmail.com"><img src="../img/mail_black.png" class="buttons" id="email"
-                    alt="Email"></a>
-            <a target="_blank" href="https://www.facebook.com/wesleyjrz"><img src="../img/facebook_black.png" class="buttons" id="facebook"
-                    alt="Facebook"></a>
-            <a target="_blank" href="https://discordapp.com/users/860287315866812436"><img src="../img/discord_black.png" class="buttons" id="discord"
-                    alt="Discord"></a>
-        </div>
-        <hr>
-        <div id="quote">
-            <blockquote>
-                <p id="quote-txt"></p>
-                <br>
-                <cite>
-                <span id="quote-cite"></span>
-                </cite>
-            </blockquote>
-        </div>
+      <nav id="nav-menu">
+        <h2 class="hidden">Menu Principal</h2>
+        <ul>
+          <li><a href="index.html">Principal</a></li>
+          <li><a href="about_me.html">Sobre mim</a></li>
+          <li><a href="projects.html">Projetos</a></li>
+        </ul>
+      </nav>
+      <div id="theme-switch">
+        <p id="textTheme" class="textOutBox"></p>
+        <p id="textTheme" class="textOutBox"></p>
+        <img
+          src="../img/day_and_night.png"
+          width="32px"
+          class="buttons"
+          id="tswitch"
+          alt="Change theme"
+        />
+      </div>
+      <figure id="perfil">
+        <img src="../img/profile_black.png" id="W" alt="W" width="200" />
+        <figcaption>
+          <h1 class="line anim-typewriter">Wesley Jr.</h1>
+        </figcaption>
+      </figure>
+      <div id="social-media">
+        <a target="_blank" href="https://www.github.com/wesleyjrz"
+          ><img
+            src="../img/github_black.png"
+            class="buttons"
+            id="github"
+            alt="GitHub"
+        /></a>
+        <a target="_blank" href="mailto:wesleyjr2002@gmail.com"
+          ><img
+            src="../img/mail_black.png"
+            class="buttons"
+            id="email"
+            alt="Email"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/wesleyjrz"
+          ><img
+            src="../img/facebook_black.png"
+            class="buttons"
+            id="facebook"
+            alt="Facebook"
+        /></a>
+        <a
+          target="_blank"
+          href="https://discordapp.com/users/860287315866812436"
+          ><img
+            src="../img/discord_black.png"
+            class="buttons"
+            id="discord"
+            alt="Discord"
+        /></a>
+      </div>
+      <hr />
+      <div id="quote">
+        <blockquote>
+          <p id="quote-txt"></p>
+          <br />
+          <cite>
+            <span id="quote-cite"></span>
+          </cite>
+        </blockquote>
+      </div>
     </header>
 
     <section id="about-me-content">
       <h2 class="hidden">Sobre mim</h2>
-        <article class="block">
-            <h2><img src="../img/pc.png" width="48" alt="Computador"><br>Como eu me apaixonei por computadores</h2>
-            <p>
-                Meu nome é Wesley Júnior e eu amo computadores desde pequeno (Eu passei muito tempo instalando vírus no computador do meu avô... Ele precisou instalar uma distribução Linux pra mim, pois eu era muito curioso e insistia em instalar tudo que via pela internet). Apesar disso, quando eu tive meu primeiro computador eu tinha doze anos, e não tinha internet ainda, então tive que buscar outros meios de me divertir, assim todo dia eu chegava em casa, ligava meu computador com Windows XP instalado e explorava tudo que podia, foram naqueles momentos que eu me apaixonei por computadores. Alguns anos depois, tive meu primeiro contato com distribuições Linux, <a target="_blank" href="https://linuxmint.com">Linux Mint</a> foi a minha primeira distribuição e eu a instalei em dual boot com Windows 10. Testei várias distribuições debian-based, mas eu não gostei muito, no entanto quando testei o <a target="_blank" href="https://manjaro.org">Manjaro Linux</a> eu simplesmente me apaixonei e uso ele até então.
-            </p>
-            <h2><br><img src="../img/target.png" width="48" alt="Alvo"><br>Minhas Metas</h2>
-            <p>
-                Estou estudando C, Rust e Unix Shell no momento e meu principal objetivo é tornar-me um Cientista da Computação (Você pode acompanhar meu progresso <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap">aqui</a>), quero contribuir também em projetos open-source, fazer jogos e me divertir criando novos apps. Quero entrar em uma universidade, talvez uma britânica, como Oxford ou outras. Outro objetivo que tenho é aprender outros idiomas, não sou fluente em inglês ainda (Meu nível atual é intermediário avançado), porém já estou estudando japonês, porque eu amo o Japão tanto quanto amo a Inglaterra, e desejo morar em um desses países algum dia (A propósito, sou do Brasil).
-            </p>
-            <h2><br><img src="../img/gamepad.png" width="48" alt="Controle"><br>Meus Hobbies</h2>
-            <p>
-                Eu gosto de estudar, aprender idiomas, falar com pessoas aleatórias de vez em quando, ouvir música (especialmente rap e heavy metal), tomar café (sem açúcar), escrever estórias e poemas, ler livros, mangás e light novels, assistir animes, jogar jogos clássicos (SNES, GBA, NDS, etc), jogar RPG com meus amigos e obviamente eu amo programar.
-            </p>
-        </article>
+      <article class="block">
+        <h2>
+          <img src="../img/pc.png" width="48" alt="Computador" /><br />Como eu
+          me apaixonei por computadores
+        </h2>
+        <p>
+          Meu nome é Wesley Júnior e eu amo computadores desde pequeno (Eu
+          passei muito tempo instalando vírus no computador do meu avô... Ele
+          precisou instalar uma distribução Linux pra mim, pois eu era muito
+          curioso e insistia em instalar tudo que via pela internet). Apesar
+          disso, quando eu tive meu primeiro computador eu tinha doze anos, e
+          não tinha internet ainda, então tive que buscar outros meios de me
+          divertir, assim todo dia eu chegava em casa, ligava meu computador com
+          Windows XP instalado e explorava tudo que podia, foram naqueles
+          momentos que eu me apaixonei por computadores. Alguns anos depois,
+          tive meu primeiro contato com distribuições Linux,
+          <a target="_blank" href="https://linuxmint.com">Linux Mint</a> foi a
+          minha primeira distribuição e eu a instalei em dual boot com Windows
+          10. Testei várias distribuições debian-based, mas eu não gostei muito,
+          no entanto quando testei o
+          <a target="_blank" href="https://manjaro.org">Manjaro Linux</a> eu
+          simplesmente me apaixonei e uso ele até então.
+        </p>
+        <h2>
+          <br /><img
+            src="../img/target.png"
+            width="48"
+            alt="Alvo"
+          /><br />Minhas Metas
+        </h2>
+        <p>
+          Estou estudando C, Rust e Unix Shell no momento e meu principal
+          objetivo é tornar-me um Cientista da Computação (Você pode acompanhar
+          meu progresso
+          <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap"
+            >aqui</a
+          >), quero contribuir também em projetos open-source, fazer jogos e me
+          divertir criando novos apps. Quero entrar em uma universidade, talvez
+          uma britânica, como Oxford ou outras. Outro objetivo que tenho é
+          aprender outros idiomas, não sou fluente em inglês ainda (Meu nível
+          atual é intermediário avançado), porém já estou estudando japonês,
+          porque eu amo o Japão tanto quanto amo a Inglaterra, e desejo morar em
+          um desses países algum dia (A propósito, sou do Brasil).
+        </p>
+        <h2>
+          <br /><img
+            src="../img/gamepad.png"
+            width="48"
+            alt="Controle"
+          /><br />Meus Hobbies
+        </h2>
+        <p>
+          Eu gosto de estudar, aprender idiomas, falar com pessoas aleatórias de
+          vez em quando, ouvir música (especialmente rap e heavy metal), tomar
+          café (sem açúcar), escrever estórias e poemas, ler livros, mangás e
+          light novels, assistir animes, jogar jogos clássicos (SNES, GBA, NDS,
+          etc), jogar RPG com meus amigos e obviamente eu amo programar.
+        </p>
+      </article>
     </section>
 
     <footer id="last-info">
-        <p id="last-update">Atualizado em quinta-feira 7 de Agosto 2021.</p>
+      <p id="last-update">Atualizado em quinta-feira 7 de Agosto 2021.</p>
     </footer>
-</body>
-
+  </body>
 </html>
