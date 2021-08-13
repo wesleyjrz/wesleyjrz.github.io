@@ -18,10 +18,10 @@ function theme(mode) {
     autoTheme(true);
   } else if (mode == 1) {
     autoTheme(false);
-    changeColour(1);
+    changeElements(1);
   } else if (mode == 2) {
     autoTheme(false);
-    changeColour(2);
+    changeElements(2);
   }
 }
 
@@ -40,13 +40,14 @@ function autoTheme(bool) {
   }
 }
 
-function changeColour(theme) {
+function changeElements(theme) {
   // Icons, Images and colours to change
   let profileIcon = document.querySelector('img#W');
   let githubIcon = document.querySelector('img#github');
   let mailIcon = document.querySelector('img#email');
   let facebookIcon = document.querySelector('img#facebook');
   let discordIcon = document.querySelector('img#discord');
+  let textTheme = document.querySelector('p#textTheme');
 
   if (theme == 1) {
     // Black
@@ -57,6 +58,12 @@ function changeColour(theme) {
     mailIcon.src = '../img/mail_black.png';
     facebookIcon.src = '../img/facebook_black.png';
     discordIcon.src = '../img/discord_black.png';
+
+    if (document.documentElement.lang === 'pt-BR') {
+      textTheme.innerText = 'Modo escuro';
+    } else {
+      textTheme.innerText = 'Dark mode';
+    }
   } else if (theme == 2) {
     // White
     document.body.style.backgroundColor = '#0a0a0a';
@@ -66,5 +73,11 @@ function changeColour(theme) {
     mailIcon.src = '../img/mail_white.png';
     facebookIcon.src = '../img/facebook_white.png';
     discordIcon.src = '../img/discord_white.png';
+
+    if (document.documentElement.lang === 'pt-BR') {
+      textTheme.innerText = 'Modo claro';
+    } else {
+      textTheme.innerText = 'Light mode';
+    }
   }
 }
