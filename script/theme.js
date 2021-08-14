@@ -5,6 +5,8 @@ function theme(mode) {
   1 = Light Theme
   2 = Dark Theme
   */
+
+  /* Theme Switcher Listener
   document.getElementById("tswitch").addEventListener("click", function () {
     if (mode == 1) {
       theme(2);
@@ -12,6 +14,7 @@ function theme(mode) {
       theme(1);
     }
   });
+  */
 
   if (mode == 0) {
     // Auto Mode
@@ -33,9 +36,9 @@ function autoTheme(bool) {
     let hours = getdate.getHours();
 
     if (hours > 18 || hours < 6) {
-      theme(2);
+      changeElements(2);
     } else {
-      theme(1);
+      changeElements(1);
     }
   }
 }
@@ -61,11 +64,13 @@ function changeElements(theme) {
     discordIcon.src = "../img/discord_black.png";
     telegramIcon.src = "../img/telegram_black.png";
 
+    /* Theme Switcher Text
     if (document.documentElement.lang === "pt-BR") {
       textTheme.innerText = "Modo escuro";
     } else {
       textTheme.innerText = "Dark mode";
     }
+    */
   } else if (theme == 2) {
     // White
     document.body.style.backgroundColor = "#0a0a0a";
@@ -77,10 +82,12 @@ function changeElements(theme) {
     discordIcon.src = "../img/discord_white.png";
     telegramIcon.src = "../img/telegram_white.png";
 
+    /* Theme Switcher Text
     if (document.documentElement.lang === "pt-BR") {
       textTheme.innerText = "Modo claro";
     } else {
       textTheme.innerText = "Light mode";
     }
+    */
   }
 }
