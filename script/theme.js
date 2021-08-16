@@ -45,24 +45,18 @@ function autoTheme(bool) {
 
 function changeElements(theme) {
   // Icons, Images and colours to change
-  let profileIcon = document.querySelector("img#W");
-  let githubIcon = document.querySelector("img#github");
-  let mailIcon = document.querySelector("img#email");
-  let facebookIcon = document.querySelector("img#facebook");
-  let discordIcon = document.querySelector("img#discord");
-  let telegramIcon = document.querySelector("img#telegram");
+  let profile = document.querySelector("img#W");
   let textTheme = document.querySelector("p#textTheme");
+  let icons = document.querySelectorAll(".black-svg");
 
   if (theme == 1) {
     // Black
     document.body.style.backgroundColor = "#ffffff";
     document.body.style.color = "#0a0a0a";
-    profileIcon.src = "../img/profile_black.png";
-    githubIcon.src = "../img/github_black.png";
-    mailIcon.src = "../img/mail_black.png";
-    facebookIcon.src = "../img/facebook_black.png";
-    discordIcon.src = "../img/discord_black.png";
-    telegramIcon.src = "../img/telegram_black.png";
+    profile.src = "../img/profile_black.png";
+    for (var i = 0; i < icons.length; i++) {
+      icons[i].classList.remove("filter-white");
+    }
 
     /* Theme Switcher Text
     if (document.documentElement.lang === "pt-BR") {
@@ -75,12 +69,10 @@ function changeElements(theme) {
     // White
     document.body.style.backgroundColor = "#0a0a0a";
     document.body.style.color = "#ffffff";
-    profileIcon.src = "../img/profile_white.png";
-    githubIcon.src = "../img/github_white.png";
-    mailIcon.src = "../img/mail_white.png";
-    facebookIcon.src = "../img/facebook_white.png";
-    discordIcon.src = "../img/discord_white.png";
-    telegramIcon.src = "../img/telegram_white.png";
+    profile.src = "../img/profile_white.png";
+    for (var i = 0; i < icons.length; i++) {
+      icons[i].classList.add("filter-white");
+    }
 
     /* Theme Switcher Text
     if (document.documentElement.lang === "pt-BR") {
