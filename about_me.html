@@ -11,15 +11,13 @@
     <title>Wesley Júnior - About me</title>
     <link rel="icon" href="img/icon.png" />
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/mobile_style.css" />
-    <link rel="stylesheet" href="style/animations.css" />
     <script src="script/quote.js"></script>
     <script src="script/theme.js"></script>
   </head>
 
   <body onload="theme(0), quote()">
-    <header id="info-header">
-      <nav id="nav-menu">
+    <header>
+      <nav>
         <h2 class="hidden">Main Menu</h2>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -27,23 +25,26 @@
           <li><a href="projects.html">Projects</a></li>
         </ul>
       </nav>
-      <!-- <div id="theme-switch">
-        <p id="textTheme" class="textOutBox"></p>
+
+      <!-- Theme Switcher (Temporarily Disabled) -->
+      <!-- <div id="theme-switcher">
+        <p id="textTheme"></p>
         <img
-          src="img/day_and_night.png"
-          width="32px"
-          id="tswitch"
-          class="buttons"
+          src="img/theme.svg"
           alt="Change theme"
+          id="tswitch"
+          class="buttons black-svg"
         />
       </div> -->
-      <figure id="perfil">
-        <img src="img/profile_black.png" id="W" alt="W" width="200" />
+
+      <figure id="avatar">
+        <img src="img/profile_black.png" alt="Avatar" id="W" />
         <figcaption>
-          <h1 class="line anim-typewriter">Wesley Jr.</h1>
+          <h1 class="line typewriter">Wesley Jr.</h1>
         </figcaption>
       </figure>
-      <div id="social-media">
+
+    <div id="social-media">
         <a target="_blank" href="https://www.github.com/wesleyjrz"
           ><img
             src="img/github.svg"
@@ -53,7 +54,7 @@
         <a target="_blank" href="mailto:wesleyjr2002@gmail.com"
           ><img
             src="img/mail.svg"
-            alt="Email"
+            alt="E-mail"
             class="buttons black-svg"
         /></a>
         <a target="_blank" href="https://www.facebook.com/wesleyjrz"
@@ -74,8 +75,10 @@
             alt="Telegram"
             class="buttons black-svg"
         /></a>
-      </div>
+      </div>  
+
       <hr />
+
       <div id="quote">
         <blockquote>
           <p id="quote-txt"></p>
@@ -89,10 +92,11 @@
 
     <section id="about-me-content">
       <h2 class="hidden">About Me</h2>
-      <article class="block">
+      <article>
         <h2>
-          <img src="img/pc.png" width="48" alt="Computer" /><br />How do I fell
-          in love with computers
+          <img src="img/pc.png" alt="Computer" width="48" />
+          <br />
+          How do I fell in love with computers
         </h2>
         <p>
           My name is Wesley Júnior and I love computers since I was a kid (I
@@ -113,15 +117,15 @@
           loved and use it so far.
         </p>
         <h2>
-          <br /><img src="img/target.png" width="48" alt="Target" /><br />My
-          Goals
+          <img src="img/target.png" alt="Target" width="48" />
+          <br />
+          My Goals
         </h2>
         <p>
           I'm currently studying C, JavaScript and Node.js and my main goal is
           to became a Computer Scientist (You can check my roadmap
-          <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap"
-            >here</a
-          >), I want to contribute with open-source projects as well, make games
+          <a target="_blank" href="https://github.com/wesleyjrz/cs-roadmap">here</a>), 
+          I want to contribute with open-source projects as well, make games
           and have fun programming a lot of new apps. I want to enter in a
           university, maybe a British one, like Oxford or another. Learn new
           languages is another goal I have, I'm not fluent in English yet (My
@@ -130,8 +134,9 @@
           to live in one of those countries someday (Btw, I'm from Brazil).
         </p>
         <h2>
-          <br /><img src="img/gamepad.png" width="48" alt="Gamepad" /><br />My
-          Hobbies
+          <img src="img/gamepad.png" alt="Gamepad" width="48" />
+          <br />
+          My Hobbies
         </h2>
         <p>
           I like to study, learn new languages, talk with random people
@@ -143,7 +148,7 @@
       </article>
     </section>
 
-    <footer id="last-info">
+    <footer>
       <p id="last-update">Updated Sat Aug 14 2021.</p>
     </footer>
   </body>

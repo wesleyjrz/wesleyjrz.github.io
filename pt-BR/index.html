@@ -11,38 +11,39 @@
     <title>Wesley Júnior - Principal</title>
     <link rel="icon" href="../img/icon.png" />
     <link rel="stylesheet" href="../style/style.css" />
-    <link rel="stylesheet" href="../style/mobile_style.css" />
-    <link rel="stylesheet" href="../style/animations.css" />
     <script src="../script/quote.js"></script>
     <script src="../script/theme.js"></script>
   </head>
 
   <body onload="theme(0), quote()">
-    <header id="info-header">
-      <nav id="nav-menu">
-        <h2 class="hidden">Menu Principal</h2>
+    <header>
+      <nav>
+        <h2 class="hidden">Main Menu</h2>
         <ul>
           <li><a href="index.html">Principal</a></li>
           <li><a href="about_me.html">Sobre mim</a></li>
           <li><a href="projects.html">Projetos</a></li>
         </ul>
       </nav>
-      <!-- <div id="theme-switch">
-        <p id="textTheme" class="textOutBox"></p>
+
+      <!-- Theme Switcher (Temporarily Disabled) -->
+      <!-- <div id="theme-switcher">
+        <p id="textTheme"></p>
         <img
-          src="img/day_and_night.png"
-          width="32px"
+          src="img/theme.svg"
+          alt="Change theme"
           id="tswitch"
-          class="buttons"
-          alt="Mudar tema"
+          class="buttons black-svg"
         />
       </div> -->
-      <figure id="perfil">
-        <img src="../img/profile_black.png" id="W" alt="W" width="200" />
+
+      <figure id="avatar">
+        <img src="../img/profile_black.png" alt="Avatar" id="W" />
         <figcaption>
-          <h1 class="line anim-typewriter">Wesley Jr.</h1>
+          <h1 class="line typewriter">Wesley Jr.</h1>
         </figcaption>
       </figure>
+
       <div id="social-media">
         <a target="_blank" href="https://www.github.com/wesleyjrz"
           ><img
@@ -53,7 +54,7 @@
         <a target="_blank" href="mailto:wesleyjr2002@gmail.com"
           ><img
             src="../img/mail.svg"
-            alt="Email"
+            alt="E-mail"
             class="buttons black-svg"
         /></a>
         <a target="_blank" href="https://www.facebook.com/wesleyjrz"
@@ -75,7 +76,9 @@
             class="buttons black-svg"
         /></a>
       </div>
+
       <hr />
+
       <div id="quote">
         <blockquote>
           <p id="quote-txt"></p>
@@ -107,7 +110,7 @@
       </article>
     </section>
 
-    <footer id="last-info">
+    <footer>
       <p id="last-update">Atualizado em sábado 14 de Agosto 2021.</p>
     </footer>
   </body>
