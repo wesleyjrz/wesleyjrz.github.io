@@ -44,7 +44,7 @@ function quote() {
         cite.innerText = "- Albert Einstein";
         break;
       default:
-        // Default quote wheter have any errors
+        // Default output whether the script have any errors
         alert(
           "Error: Não é possível carregar a citação automática, por faver, contate me no telegram @wesleyjrz"
         );
@@ -86,7 +86,7 @@ function quote() {
         cite.innerText = "- Albert Einstein";
         break;
       default:
-        // Default quote wheter have any errors
+        // Default output whether the script have any errors
         alert(
           "Error: Auto quote cannot load, please contact me on telegram @wesleyjrz"
         );
