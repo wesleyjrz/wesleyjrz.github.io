@@ -6,8 +6,8 @@ function theme(mode) {
   2 = Dark Theme
   */
 
-  /* Theme Switcher Listener
-  document.getElementById("tswitch").addEventListener("click", function () {
+  /* Theme Switcher Listener Event
+  document.getElementById("tswitch").addEventListener("click", function() {
     if (mode == 1) {
       theme(2);
     } else {
@@ -58,7 +58,7 @@ function changeElements(theme) {
       icons[i].classList.remove("filter-white");
     }
 
-    /* Theme Switcher Text
+    /* Theme Switch Icon Colour Changer
     if (document.documentElement.lang === "pt-BR") {
       textTheme.innerText = "Modo escuro";
     } else {
@@ -74,7 +74,7 @@ function changeElements(theme) {
       icons[i].classList.add("filter-white");
     }
 
-    /* Theme Switcher Text
+    /* Theme Switch Icon Colour Changer
     if (document.documentElement.lang === "pt-BR") {
       textTheme.innerText = "Modo claro";
     } else {
